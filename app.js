@@ -23,7 +23,7 @@ const { stat } = require("fs/promises");
 const session=require("express-session");
 const MongoStore = require('connect-mongo');
 const flash=require("connect-flash");
-
+// const mongocenect="await mongoose.connect('mongodb://127.0.0.1:27017/test')";
 
 const app=express();
 app.use(flash());
